@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.col-2 {
+    width: 40%;
+    float: left;
+    margin-right: 7%;
+    padding: 3%;
+}
+.col-2:last-child {
+    margin-right: 0;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.text-area {
+    padding-top: 110px;;
+}
+.button {
+    margin-top: 40px;
+}
+h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+p {
+    font-size: 18px;
+}
+/*******HEADER-AREA***********/
+
+.header-area {
+    height: 600px;
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.mark {
+    color: #3949AB;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 0;
+}
+.imgT img {
+    width: 100%;
+}
+.link-button {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    background-image: linear-gradient(145deg, #5E35B1,#9C27B0);
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+/*********BIOGRAPHY-AREA*********/
+
+.biography-area {
+    overflow: hidden;
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+}
+.imgL img {
+    width: 100%;
+}
+
+/**********WORK-AREA*********/
+.work-area {
+    height: 600px;
+    overflow: hidden;
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.work-area img {
+    width: 100%;
+}
+.head-text {
+    padding: 30px;
+}
+.head-text h1 {
+    text-align: center;
+}
+.col-3 {
+    width: 31%;
+    float: left;
+    margin-right: 3%;
+}
+.col-3:last-child {
+    margin-right: 0;
+}
+/**********CLIENT-AREA*********/
+
+.client-area {
+    overflow: hidden;
+    height: 600px;
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 30px;
+}
+.T-text {
+    font-weight: 500;
+    text-align: center;
+    padding: 40px 0;
+}
+.M-text {
+    text-transform: capitalize;
+    padding-bottom: 50px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.M-text .deep {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 0;
+}
+.F-button {
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(185deg, #5E35B1,#9C27B0);
+}
+.F-button h1 {
+    font-size: 30px;
+    text-transform: lowercase;
+    margin-top: 0;
+}
+/************FOOTER-AREA*********/
+
+.footer {
+    text-align: center;
+    margin: 60px 0;
+    color: #7f8c8d;
+}
+.footer p{
+    font-size: 14px;
+}
+
+/***************END******************/
